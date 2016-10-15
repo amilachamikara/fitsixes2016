@@ -1,0 +1,56 @@
+* {
+    font-family: "Arial Black";
+}
+
+body {
+    background-color: dimgrey;
+}
+
+#scoreboard {
+    margin-top: 5%;
+}
+
+.page{
+    height: 500px;
+}
+
+.page:nth-child(odd) .content {
+    border-radius: 30px;
+    border: solid 2px white;
+    margin: 2%;
+    height: inherit;
+    background-color: #333333;
+}
+
+.page:nth-child(even) .content {
+    border-radius: 30px;
+    border: solid 1px white;
+    margin: 2%;
+    height: inherit;
+    background-color: darkslateblue;
+}
+
+.teams {
+    color: white;
+    margin-top: 1%;
+    font-size: 62px;
+}
+
+.main {
+    color: greenyellow;
+}
+
+.score, .wickets, .separator{
+    font-size: 150px;
+}
+
+
+.overs {
+    display: block;
+    font-size: 55px;
+}
+
+.target {
+    color: orangered;
+    font-size: 70px;
+}
